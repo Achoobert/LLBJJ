@@ -1,6 +1,6 @@
 ---
 ---
-<a href="http://lazyleopardbjj.com/">Home</a>
+<a href="https://lazyleopardbjj.com/">Home</a>
 
 Weekly training schedule, <a href="/">To reserve a private class, see this calendar link</a>
 <figure>
