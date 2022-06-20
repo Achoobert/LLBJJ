@@ -11,6 +11,8 @@ Undoubtably one of the great minds of our time, [Christopher Hitchens](https://e
 
 ## Quick Start
 
+bundle exec jekyll serve
+
 This theme is, itself, a Jekyll blog, meaning the code base you see has everything you need to run a Jekyll powered blog!
 
 To get started quickly, follow the instructions below:

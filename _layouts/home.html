@@ -22,30 +22,32 @@ layout: default
 </header>
 {% endif %}
 
-<main class="home" id="main" role="main" aria-label="Content">
+<main class="home" id="main" role="main" aria-label="Content" style="max-width:none;>
 
-  <h1 class="content-title divided">
-    {% if site.paginate and site.paginate_path and paginator.page > 1 %}
-    Page {{ paginator.page }}
-    {% else %}
-    {% include carousel.html height="50" unit="%" duration="7" number="1" %}
-    <img src="./assets/images/about.jpg" alt="about photo" />
-    <img src="./assets/images/logo2.png" alt="logo photo" />
-    {% endif %}
-    {% include carousel.html height="50" unit="%" duration="7" number="1" %}
-  </h1>
+  <!-- <h1 class=" content-title divided">
+  {% if site.paginate and site.paginate_path and paginator.page > 1 %}
+  Page {{ paginator.page }}
+  {% else %}
+  {% include carousel.html height="50" unit="3" duration="7" number="1" %}
+  {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+  {% endif %}
+  </h1> -->
+  {% include carousel.html height="50" unit="%" duration="7" number="0" %}
+  <!-- <img src="./assets/images/img1.jpeg" alt="logo photo" /> -->
+  <img src="./assets/images/logo2.png" alt="logo photo" />
+  <img src="./assets/images/about.jpg" alt="about photo" style="width:100%;" />
 
-  {% if site.paginate and site.paginate_path %}
+  <!-- {% if site.paginate and site.paginate_path %} -->
 
-  <ul class="post-list">
+  <!-- <ul class="post-list">
     {% for post in paginator.posts %}
     {% include post-list-item.html %}
     {% endfor %}
-  </ul>
+  </ul> -->
 
-  {% if paginator.total_pages > 1 %}
+  <!-- {% if paginator.total_pages > 1 %} -->
 
-  <div class="post-pagination">
+  <!-- <div class="post-pagination">
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
     {% else %}
@@ -70,6 +72,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  {% endif %}
+  {% endif %} -->
 
 </main>
