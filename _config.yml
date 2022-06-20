@@ -25,7 +25,8 @@ github_username:  achoobert
 
 # Build settings
 markdown: kramdown
-
+hide_search: true
+feed_icon: /assets/images/icon-512.png
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

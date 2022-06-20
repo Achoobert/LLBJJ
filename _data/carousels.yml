@@ -1,0 +1,6 @@
+carousels:
+  - images: 
+    - image: /_site/assets/images/img1.jpeg
+    - image: /_site/assets/images/img2.jpeg
+    - image: /assets/images/img3.jpeg
+    - image: /assets/images/img5.jpeg

@@ -28,9 +28,11 @@ layout: default
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
     Page {{ paginator.page }}
     {% else %}
+    {% include carousel.html height="50" unit="%" duration="7" number="1" %}
     <img src="./assets/images/about.jpg" alt="about photo" />
     <img src="./assets/images/logo2.png" alt="logo photo" />
     {% endif %}
+    {% include carousel.html height="50" unit="%" duration="7" number="1" %}
   </h1>
 
   {% if site.paginate and site.paginate_path %}
@@ -69,6 +71,5 @@ layout: default
   </ul>
 
   {% endif %}
-
 
 </main>
