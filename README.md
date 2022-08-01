@@ -6,9 +6,6 @@ title: "Hitchens"
 An inarguably well-designed [Jekyll](http://jekyllrb.com) theme by [Pat Dryburgh](https://patdryburgh.com).
 
 ![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/screenshot.png)
-
-Undoubtably one of the great minds of our time, [Christopher Hitchens](https://en.wikipedia.org/wiki/Christopher_Hitchens) challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme's design is inspired by the trade paperback version his book, [Arguably](https://en.wikipedia.org/wiki/Arguably), and is dedicated to his memory.
-
 ## Quick Start
 
 bundle exec jekyll serve
@@ -196,3 +193,9 @@ The code for this theme is available as open source under the terms of the [MIT 
 The font, EB Garamond, is Copyright 2017 The EB Garamond Project Authors and licensed under the [SIL Open Font License Version 1.1](https://github.com/patdryburgh/hitchens/blob/master/assets/fonts/OFL.txt).
 
 Graphics are released to the public domain.
+
+# Carousel
+
+https://codepen.io/desandro/pen/RNByrj
+https://css-tricks.com/creating-responsive-touch-friendly-carousels-with-flickity/
+https://github.com/metafizzy/flickity
