@@ -22,16 +22,11 @@ layout: default
 </header>
 {% endif %}
 
-<main class="home" id="main" role="main" aria-label="Content" style="max-width:none;>
+<main class="home" id="main" role="main" aria-label="Content" style="max-width:none" ;>
 
-  <!-- <h1 class=" content-title divided">
-  {% if site.paginate and site.paginate_path and paginator.page > 1 %}
-  Page {{ paginator.page }}
-  {% else %}
-  {% include carousel.html height="50" unit="3" duration="7" number="1" %}
-  {% include carousel.html height="50" unit="%" duration="7" number="1" %}
-  {% endif %}
-  </h1> -->
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
   {% include carousel.html height="50" unit="%" duration="7" number="0" %}
   <!-- <img src="./assets/images/img1.jpeg" alt="logo photo" /> -->
   <img src="./assets/images/logo2.png" alt="logo photo" />
