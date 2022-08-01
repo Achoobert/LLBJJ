@@ -1,0 +1,23 @@
+/**
+ * slick carousel container styles 
+ */
+
+.gallery {
+  background: $brand-color;
+}
+
+.gallery-cell {
+  width: 100%;
+  margin-right: 10px;
+  background: $brand-color;
+  counter-increment: gallery-cell;
+  align-content: center;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+}

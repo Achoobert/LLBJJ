@@ -12,7 +12,10 @@
   {% if site.description %}
   <meta name="description" content="{{ site.description }}">{% endif %}
 
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
   <link rel="apple-touch-icon" href="{{ site.icon }}">
 
