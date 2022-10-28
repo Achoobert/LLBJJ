@@ -1,15 +1,15 @@
 carousels:
   - images: 
-    - image: ./assets/images/img1.jpeg
-    - image: ./assets/images/img2.jpeg
-    - image: ./assets/images/img3.jpeg
-    - image: ./assets/images/img4.jpeg
-    - image: ./assets/images/img5.jpeg
-    - image: ./assets/images/img6.jpeg
-    - image: ./assets/images/img7.jpeg
-    - image: ./assets/images/img8.jpeg
-    - image: ./assets/images/img9.jpeg
-    - image: ./assets/images/img10.jpeg
+    - image: ./assets/images/img1.jpg
+    - image: ./assets/images/img2.jpg
+    - image: ./assets/images/img3.jpg
+    - image: ./assets/images/img4.jpg
+    - image: ./assets/images/img5.jpg
+    - image: ./assets/images/img6.jpg
+    - image: ./assets/images/img7.jpg
+    - image: ./assets/images/img8.jpg
+    - image: ./assets/images/img9.jpg
+    - image: ./assets/images/img10.jpg
     - image: ./assets/images/img11.jpeg
     - image: ./assets/images/img12.jpeg
     - image: ./assets/images/img13.jpeg
