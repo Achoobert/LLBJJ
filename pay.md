@@ -1,12 +1,14 @@
 ---
-layout: post
+layout: default
 title: Payment information
 ---
 
 
-<figure>
-  <img src="./assets/images/payqr.png" alt="QR code" />
-  <figcaption>
-    Payment QR code
+<!-- <figure> -->
+<div>
+  <img src="./assets/images/payQR.jpg" alt="QR code" styles="width:100%;" />
+</div>
+  <!-- <figcaption>
+    Payment Information
   </figcaption>
-</figure>
+</figure> -->
