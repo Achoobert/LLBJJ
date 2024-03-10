@@ -1,6 +1,15 @@
 {% assign menu = site.data.menu %}
 
 {% if menu %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-14BXPYM0Q2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-14BXPYM0Q2');
+</script>
 <nav class="site-navigation" role="navigation">
   <ul>
     <li>
