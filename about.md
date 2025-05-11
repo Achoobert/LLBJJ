@@ -13,7 +13,7 @@ Jiu Jitsu is for everyone! Here at Lazy Leopard, we offer BJJ group lessons for 
 
 ### About the Coach
 
-Coach Greg is a purple belt in Brazilian Jiu Jitsu, and trains under Professor Joseph Henle. Coach Greg holds an undergraduate degree in education with a certificate to teach Kindergarten through Grade 12 physical education and health. He also holds a masters degree in sports coaching. He spent 5 years teaching physical education at various international schools around the world before he decided to transition into teaching jiu jitsu full time in 2017. When he isn't teaching, or training, he enjoys Muay Thai, camping, movies, and spending time with his family.
+Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under Professor Joseph Henle. Coach Greg holds an undergraduate degree in education with a certificate to teach Kindergarten through Grade 12 physical education and health. He also holds a masters degree in sports coaching. He spent 5 years teaching physical education at various international schools around the world before he decided to transition into teaching jiu jitsu full time in 2017. When he isn't teaching, or training, he enjoys Muay Thai, camping, movies, and spending time with his family.
 
 <figure>
   <img src="./assets/images/group.jpeg" alt="group" />
