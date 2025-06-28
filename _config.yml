@@ -31,6 +31,9 @@ og_image_alt: "Lazy Leopard BJJ - The friendliest gym in Chiang Mai"
 twitter_card: summary_large_image
 twitter_image: /assets/images/owners_landscape.webp
 
+# Google Analytics
+google_analytics: G-XXXXXXXXXX  # Replace with your actual Measurement ID
+
 # Build settings
 markdown: kramdown
 hide_search: true
