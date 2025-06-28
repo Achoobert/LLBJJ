@@ -38,7 +38,7 @@ Chiang Mai, Thailand's cultural capital in the north, has become a hub for marti
           <a href="https://g.co/kgs/rvYZ3z5" target="_blank" rel="noopener noreferrer" style="color: #28a745; text-decoration: none;">Map</a>
         </td>
         <td style="padding: 1em; color: #28a745; font-weight: bold;">Black Belt</td>
-        <td style="padding: 1em; color: #6c757d;">-</td>
+        <td style="padding: 1em;">Changing Room</td>
       </tr>
       <tr style="border-bottom: 1px solid #eee;">
         <td style="padding: 1em; font-weight: bold; white-space: nowrap;">
@@ -58,7 +58,7 @@ Chiang Mai, Thailand's cultural capital in the north, has become a hub for marti
           <a href="https://g.co/kgs/ZfNSc98" target="_blank" rel="noopener noreferrer" style="color: #28a745; text-decoration: none;">Map</a>
         </td>
         <td style="padding: 1em; color: #6c757d;">-</td>
-        <td style="padding: 1em; color: #6c757d;">-</td>
+        <td style="padding: 1em;">Changing Room</td>
       </tr>
       <tr style="border-bottom: 1px solid #eee;">
         <td style="padding: 1em; font-weight: bold; white-space: nowrap;">

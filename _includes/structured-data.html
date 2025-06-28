@@ -44,3 +44,88 @@
 }
 </script>
 {% endif %}
+<!-- Local Business Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Lazy Leopard BJJ",
+  "description": "Brazilian Jiu-Jitsu training gym in Chiang Mai, Thailand offering classes for all skill levels with experienced black belt instructors.",
+  "url": "{{ site.url }}{{ page.url }}",
+  "telephone": "+66-99-309-7583",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Mu Ban World Cup Ln, Tambon Nong Kwai, Hang Dong District",
+    "addressLocality": "Chiang Mai",
+    "addressRegion": "Chiang Mai Province",
+    "addressCountry": "TH",
+    "postalCode": "50230"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.729353,
+    "longitude": 98.937447
+  },
+  "openingHours": [
+    "Mo-Su 06:00-22:00"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "THB, USD",
+  "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+  "sameAs": [
+    "https://www.facebook.com/LazyLeopardBJJ",
+    "https://www.instagram.com/lazyleopardbjj/",
+    "https://www.tiktok.com/@lazyleopardbjj"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "BJJ Training Programs",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Brazilian Jiu-Jitsu Classes",
+          "description": "BJJ training sessions for beginners to advanced students"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Private BJJ Lessons",
+          "description": "One-on-one training with experienced instructors"
+        }
+      }
+    ]
+  },
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Showers",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification", 
+      "name": "Changing Rooms",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Air Conditioning",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Parking",
+      "value": true
+    }
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "Chiang Mai"
+  },
+  "sport": "Brazilian Jiu-Jitsu",
+  "foundingDate": "2020"
+}
+</script>
