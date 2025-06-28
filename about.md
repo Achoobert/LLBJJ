@@ -6,7 +6,7 @@ title: About
 Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under [Professor Pritt Mihelson](https://www.defensivebjj.com/) and [Luke Taylor](https://www.instagram.com/luketaylormma/). 
 
 <figure>
-  <img src="./assets/images/owners.webp" alt="Greg and Rae posting after a promotion" />
+  <img src="/assets/images/owners.webp" alt="Greg and Rae posting after a promotion" />
   <figcaption>
     Greg and Rae
   </figcaption>
