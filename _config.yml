@@ -24,12 +24,12 @@ twitter_username: lazyleopardbjj
 github_username:  achoobert
 
 # Social media and SEO settings
-og_image: /assets/images/owners.webp
+og_image: /assets/images/owners_landscape.webp
 og_image_width: 1200
 og_image_height: 630
 og_image_alt: "Lazy Leopard BJJ - The friendliest gym in Chiang Mai"
 twitter_card: summary_large_image
-twitter_image: /assets/images/owners.webp
+twitter_image: /assets/images/owners_landscape.webp
 
 # Build settings
 markdown: kramdown

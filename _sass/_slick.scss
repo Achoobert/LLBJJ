@@ -44,6 +44,7 @@
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  gap: 1em;
 }
 
 .mapImg {
@@ -51,13 +52,14 @@
   flex-shrink: 0;
   width: auto;
   height: auto;
+  order: 2;
 }
 
 .mapText {
   flex-grow: 1;
   padding: 1em;
-  text-align: center;
-  order: 2;
+  text-align: left;
+  order: 1;
 }
 
 @media (max-width: 600px) {
@@ -66,9 +68,267 @@
     align-items: center;
   }
   
-  .mapText {
+  .mapImg {
     order: 1;
+  }
+  
+  .mapText {
+    order: 2;
     margin-top: 1em;
+    text-align: center;
+  }
+}
+
+// Reviews Section Styling
+.reviews-section {
+  margin: 3em auto;
+  text-align: center;
+  max-width: 600px;
+  
+  h2 {
+    margin-bottom: 1.5em;
+    color: $text-color;
+  }
+}
+
+.facebook-embed {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  
+  .fb-page {
+    margin: 0 auto;
+  }
+}
+
+// Gallery Section Styling
+.gallery-section {
+  margin: 3em auto;
+  text-align: center;
+  max-width: 800px;
+  
+  h2 {
+    margin-bottom: 1.5em;
+    color: $text-color;
+  }
+  
+  .frame {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .gallery {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-section {
+    margin: 2em auto;
+    padding: 0 1em;
+  }
+  
+  .facebook-embed {
+    .fb-page {
+      width: 100% !important;
+      max-width: 400px;
+    }
+  }
+}
+
+// Social Media Section Styling
+.social-media-section {
+  margin: 3em auto;
+  text-align: center;
+  max-width: 1200px;
+  padding: 0 1em;
+  
+  h2 {
+    margin-bottom: 2em;
+    color: $text-color;
+  }
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2em;
+  align-items: start;
+  justify-content: center;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook-banner {
+  iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.social-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid #dee2e6;
+  border-radius: 12px;
+  padding: 2em 1.5em;
+  text-align: center;
+  transition: all 0.3s ease;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: $text-color;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: #adb5bd;
+  }
+  
+  .social-icon {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  h3 {
+    margin: 0.5em 0;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 0.5em 0;
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+  
+  .follow-text {
+    display: inline-block;
+    background: $brand-color;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 1em;
+    transition: background 0.3s ease;
+  }
+  
+  &:hover .follow-text {
+    background: darken($brand-color, 10%);
+  }
+}
+
+.instagram {
+  border-color: #e4405f;
+  &:hover {
+    border-color: #c13584;
+    background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+  }
+}
+
+.tiktok {
+  border-color: #000000;
+  &:hover {
+    border-color: #ff0050;
+    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+  }
+}
+
+@media (max-width: 900px) {
+  .social-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+  
+  .facebook-banner {
+    order: 1;
+  }
+  
+  .social-link {
+    order: 2;
+  }
+  
+  .social-card {
+    min-height: 150px;
+    padding: 1.5em 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .social-media-section {
+    margin: 2em auto;
+  }
+  
+  .social-grid {
+    gap: 1em;
+  }
+  
+  .facebook-banner iframe {
+    width: 100% !important;
+    max-width: 400px;
+  }
+  
+  .social-card {
+    min-height: 120px;
+    padding: 1em;
+    
+    .social-icon {
+      font-size: 2em;
+    }
+    
+    h3 {
+      font-size: 1.1em;
+    }
+    
+    p {
+      font-size: 0.8em;
+    }
+  }
+}
+
+// Social Media Embeds in Carousel
+.social-embed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $brand-color;
+  
+  .embed-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    
+    iframe {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .social-embed {
+    .embed-container {
+      padding: 0.5em;
+      
+      iframe {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 400px;
+      }
+    }
   }
 }
 

@@ -13,14 +13,14 @@ Jiu Jitsu is for everyone! Here at Lazy Leopard, we offer BJJ group lessons for 
 
 ### About the Coach
 
-Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under Professor Joseph Henle. Coach Greg holds an undergraduate degree in education with a certificate to teach Kindergarten through Grade 12 physical education and health. He also holds a masters degree in sports coaching. He spent 5 years teaching physical education at various international schools around the world before he decided to transition into teaching jiu jitsu full time in 2017. When he isn't teaching, or training, he enjoys Muay Thai, camping, movies, and spending time with his family.
-
 <figure>
-  <img src="./assets/images/owners.webp" alt="group" />
+  <img src="./assets/images/owners.webp" alt="Greg and Rae posting after a promotion" />
   <figcaption>
-    group photo of a Tuesday  <a href="/schedule.html">kids class</a>
+    Greg and Rae</a>
   </figcaption>
 </figure>
+Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under [Professor Pritt Mihelson](https://www.defensivebjj.com/) and [Professor Luke Taylor](https://www.instagram.com/luketaylormma/). Coach Greg holds an undergraduate degree in education with a certificate to teach Kindergarten through Grade 12 physical education and health. He also holds a masters degree in sports coaching. He spent 5 years teaching physical education at various international schools around the world before he decided to transition into teaching jiu jitsu full time in 2017. When he isn't teaching, or training, he enjoys Muay Thai, camping, movies, and spending time with his family.
+
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaxdegler%2Fposts%2Fpfbid0ViZ3PdzCYMsv578EbE6UTqmuoi1VJ1UspdUZD5hREqDwqbSR129hBV9w2mDkQSPSl&show_text=true&width=500" width="500" height="228" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
@@ -31,5 +31,3 @@ Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under Professor Jo
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdaniel.hickman.78%2Fposts%2Fpfbid0V9MT22YiKP5TLoMTVkSxHrW5ftPRTXcgeDMGmEEmMAmHEk7P4iX4KrKTAECVtWC2l&show_text=true&width=500" width="500" height="272" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmewenrich%2Fposts%2Fpfbid02fLQ1HeGqDoLtPErfpM1yHHjWWajzY9FpmX1nXaNTpB4B7KGC7mjpgDXj21rvAUWyl&show_text=true&width=500" width="500" height="317" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Falphaanimalzubda%2Fposts%2Fpfbid027tv6bhTtEfbE2nbhzY75wrQZ1baVrZdgF1wZHWoRTwaLNVi8Y2pWbGLjFrnnrewkl&show_text=true&width=500" width="500" height="831" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
