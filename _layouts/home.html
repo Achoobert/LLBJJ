@@ -216,7 +216,7 @@ layout: default
       </div>
 <!-- LINE Link (Mobile Only) -->
 <div class="social-item social-link line-mobile-only">
-  <a href="https://line.me/ti/p/WFLRcR9u4U" target="_blank" rel="noopener noreferrer">
+  <a href="https://lin.ee/iNB3drb" target="_blank" rel="noopener noreferrer">
     <div class="social-card line">
       <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
         <path
@@ -358,6 +358,14 @@ layout: default
                     }
                   }
                 });
+              } else {
+                // Zoom out - tap to minimize
+                this.classList.remove('zoomed');
+                isZoomed = false;
+                const overlay = document.getElementById('map-overlay');
+                if (overlay) {
+                  document.body.removeChild(overlay);
+                }
               }
             }
           });

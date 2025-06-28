@@ -11,7 +11,9 @@ Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under [Professor P
     Greg and Rae
   </figcaption>
 </figure>
-Coach Greg holds a masters degree in *sports coaching* and an undergraduate degree in education with a certificate to teach Kindergarten through Grade 12 *physical education and health*. He spent 5 years teaching physical education at various international schools around the world before deciding to transition into teaching Brazilian Jiu Jitsu full time in 2017. 
+Coach Greg holds a masters degree in *sports coaching* and an undergraduate degree in education with a certificate to teach Kindergarten through Grade 12 *physical education and health*. 
+
+He spent 5 years teaching physical education at various international schools around the world before deciding to transition into teaching Brazilian Jiu Jitsu full time in 2017. 
 
 When he isn't teaching, or training, he enjoys Muay Thai, camping, movies, and spending time with his family.
 

@@ -36,6 +36,7 @@ google_analytics: G-XXXXXXXXXX  # Replace with your actual Measurement ID
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 hide_search: true
 feed_icon: /assets/images/logo.webp
 # Exclude from processing.
