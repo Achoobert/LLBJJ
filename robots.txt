@@ -1,1 +1,39 @@
- 
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lazyleopardbjj.com/sitemap.xml
+
+# Disallow development and private files
+Disallow: /vendor/
+Disallow: /_site/
+Disallow: /_config.yml
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+Disallow: /README.md
+Disallow: /.git/
+Disallow: /.gitignore
+Disallow: /.github/
+Disallow: /.bundle/
+Disallow: /.jekyll-cache/
+Disallow: /hitchens-theme.gemspec
+Disallow: /CODE_OF_CONDUCT.md
+Disallow: /LICENSE.txt
+Disallow: /convert.sh
+
+# Allow all public content
+Allow: /about/
+Allow: /pay/
+Allow: /schedule/
+Allow: /chiang-mai-bjj/
+Allow: /assets/
+Allow: /images/
+Allow: /feed.xml
+Allow: /feed.json
+
+# GitHub Pages specific
+Allow: /CNAME
+Allow: /favicon.ico
+
+# Crawl delay for GitHub Pages
+Crawl-delay: 1 
