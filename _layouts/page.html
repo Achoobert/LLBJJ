@@ -2,4 +2,9 @@
 layout: post
 ---
 
+{% if page.title %}
+<title>{{ page.title }}</title>
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+{% endif %}
+
 {{ content }}

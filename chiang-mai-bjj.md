@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "BJJ Gyms in Chiang Mai Thailand - Find the Best Brazilian Jiu Jitsu for You"
-description: "Compare training facilities, instructors, location, and programs to find the academy you can show up to consistently."
-keywords: "BJJ gyms Chiang Mai, Brazilian Jiu Jitsu Thailand, martial arts Chiang Mai, BJJ training Chiang Mai"
+title: "Chiang Mai BJJ - Find the Best Brazilian Jiu Jitsu for You"
+description: "Compare BJJ gyms, training facilities, instructors, and programs in Chiang Mai, Thailand to find the best fit for your jiu jitsu journey."
+keywords: "BJJ Chiang Mai, Brazilian Jiu Jitsu Thailand, BJJ gyms Chiang Mai, martial arts Chiang Mai, BJJ training Chiang Mai"
 ---
 
 # BJJ Gyms in Chiang Mai Thailand

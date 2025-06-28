@@ -1,12 +1,14 @@
 ---
 layout: post
-title: About
+title: "About Lazy Leopard BJJ"
+description: "Learn about Coach Greg, our philosophy, and why Lazy Leopard BJJ is Chiang Mai's friendliest gym."
+keywords: "BJJ Chiang Mai, Brazilian Jiu Jitsu, Lazy Leopard, Coach Greg, martial arts Chiang Mai"
 ---
 ### About the Coach
 Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under [Professor Pritt Mihelson](https://www.defensivebjj.com/) and [Luke Taylor](https://www.instagram.com/luketaylormma/). 
 
 <figure>
-  <img src="/assets/images/owners.webp" alt="Greg and Rae posting after a promotion" />
+  <img src="/assets/images/owners.webp" alt="Greg and Rae, owners of Lazy Leopard BJJ Chiang Mai, celebrating after his black belt promotion" />
   <figcaption>
     Greg and Rae
   </figcaption>

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Payment information
+title: "Payment Information - Lazy Leopard BJJ"
+description: "How to pay for classes, memberships, and drop-ins at Lazy Leopard BJJ in Chiang Mai. QR code and LINE contact included."
+keywords: "BJJ Chiang Mai payment, Lazy Leopard BJJ, pay for jiu jitsu, Chiang Mai martial arts"
 ---
 
 <header class="site-masthead">
@@ -9,8 +11,8 @@ title: Payment information
 
 <!-- <figure> -->
 <div>
-  <img src="/assets/images/payQR.webp" alt="QR code" style="width:100%; max-width: 400px; display: block; margin: 2em auto;" />
-  <img src="/assets/images/payQR_scan.webp" alt="QR code" style="width:100%; max-width: 400px; display: block; margin: 2em auto;" />
+  <img src="/assets/images/payQR.webp" alt="QR code for payment to Lazy Leopard BJJ Chiang Mai" style="width:100%; max-width: 400px; display: block; margin: 2em auto;" />
+  <img src="/assets/images/payQR_scan.webp" alt="QR code scanning instructions for Lazy Leopard BJJ payment" style="width:100%; max-width: 400px; display: block; margin: 2em auto;" />
 </div>
   <!-- <figcaption>
     Payment Information

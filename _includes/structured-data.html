@@ -1,0 +1,46 @@
+{% if page.layout == 'post' or page.layout == 'default' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Lazy Leopard BJJ",
+  "url": "https://lazyleopardbjj.com/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Chiang Mai",
+    "addressCountry": "TH"
+  },
+  "description": "The friendliest Brazilian Jiu Jitsu gym in Chiang Mai, Thailand.",
+  "image": "https://lazyleopardbjj.com/assets/images/owners_landscape.webp"
+}
+</script>
+{% endif %}
+
+{% if page.layout == 'post' and page.title %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "author": {
+    "@type": "Person",
+    "name": "Coach Greg"
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema | default: '2025-06-28' }}",
+  "image": ["https://lazyleopardbjj.com/assets/images/owners_landscape.webp"],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lazy Leopard BJJ",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lazyleopardbjj.com/assets/images/logo.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "description": "{{ page.description | default: site.description }}"
+}
+</script>
+{% endif %}
