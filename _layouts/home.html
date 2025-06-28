@@ -24,118 +24,171 @@ layout: default
 
 <main class="home" id="main" role="main" aria-label="Content" style="max-width:none" ;>
 
-  <div class="mapContainer">
-    <img class="mapImg" src="./assets/images/map.webp" alt="map" style="max-height: 500px;" />
-    <div class="mapText">
-      <p>
-        Located to the left in the main lobby, past the desk. </br>
-        Then go down the stairs and to the right: next to the pool.
-      </p>
+  <!-- Main Content Row with Map and Gallery -->
+  <div class="main-content-row">
+    <div class="map-section">
+      <div class="mapContainer">
+        <img class="mapImg" src="./assets/images/map.webp" alt="map" />
+        <div class="mapText">
+          <p>
+            Located to the left in the main lobby, past the desk. </br>
+            Then go down the stairs and to the right: next to the pool.
+          </p>
+        </div>
+      </div>
+      </div>
+
+    <!-- Photo Gallery Section -->
+    <div class="gallery-section">
+      <div class="frame">
+        <div class="gallery js-flickity">
+          <!-- Newest WhatsApp images first (gallery1-19) -->
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery1.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery2.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery3.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery4.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery5.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery6.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery7.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery8.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery9.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery10.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery11.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery12.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery13.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery14.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery15.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery16.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery17.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery18.webp" alt="BJJ training session" />
+          </div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/gallery19.webp" alt="BJJ training session" />
+          </div>
+          
+          <!-- Google Maps Embed -->
+          <div class="frame img gallery-cell">
+            <div style="align-content:center; padding: 3em;">
+              <div style="float:left" class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.5410787986434!2d98.93744747609074!3d18.72935338240509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3103aa9d5fb7%3A0xe6c7f949519d09c9!2sLazy%20Leopard%20BJJ%20and%20MMA!5e0!3m2!1sen!2sth!4v1751098074695!5m2!1sen!2sth"
+                  width="600" height="450" style="border: 0px; float:left" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+          <!-- Existing images -->
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/llbjj_img1.webp" alt="Belt Promotion Day" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img1.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img3.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img4.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img5.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img6.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img7.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img8.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img9.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img12.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img15.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img16.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img17.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img18.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img19.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img20.webp" alt="BJJ training session" /></div>
+          <div class="frame img gallery-cell"><img src="./assets/images/gallery/img21.webp" alt="BJJ training session" /></div>
+          <!-- Instagram Reel Embed -->
+          <div class="frame gallery-cell social-embed">
+            <div class="embed-container">
+              <iframe src="https://www.instagram.com/lazyleopardbjj/reel/DHauBHuSzJ3/embed" width="400" height="500"
+                style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true">
+              </iframe>
+            </div>
+          </div>
+          <!-- TikTok Video Embed -->
+          <div class="frame gallery-cell social-embed">
+            <div class="embed-container">
+              <iframe src="https://www.tiktok.com/@lazyleopardbjj/video/7518345989468572950/embed" width="400" height="500"
+                style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+  <!-- Reviews Section -->
+  <div class="reviews-section">
+    <div class="reviews-grid">
+      <iframe
+        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcassondra.asla%2Fposts%2Fpfbid021CWNCynBzFK26FVBxvWsf3Q2xwFokCasTGyoNarVBGZzefrS92QaLg1PFcXG8oqal&show_text=true&width=500"
+        width="500" height="247" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe
+        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaxdegler%2Fposts%2Fpfbid0VmE2pg1SnZnFsW4VYcqwQaoW3nJ5N8ygZFJtuigHGS6c7Yy7jfnymuQpP2BGLQQYl&show_text=true&width=500"
+        width="500" height="228" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe
+        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fgregory.e.stewart%2Fposts%2Fpfbid02R6PDS51JqSAqnXFdi7dWTTQLmKDcbUtTzRUFB1zubdNQu21zY57cRT7rUyEGEbE9l&show_text=true&width=500"
+        width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftazio.lai%2Fposts%2Fpfbid0nBRoVjYREsw1vjf4KecKmL4zsRKvMMTS8yTDtLQ5Qi4KqG7iuP6bTjF3LAFDfGhRl&show_text=true&width=500"
+          width="500" height="785" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjampee.kirwin.7%2Fposts%2Fpfbid02pmbFPBQNKQZEvDJ8WX3PpxsdD5L8kkiuKGesMBD7HzJDwFC3m4KdhhChhDuNcutyl&show_text=true&width=500"
+          width="500" height="222" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmarydoble%2Fposts%2Fpfbid0NKC1t9v7zZhMccnZmV1ZdKoZcqZwZe8BZVx1dpk9guB1RDDqrGs7he9jBZFi5aNml&show_text=true&width=500"
+          width="500" height="228" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frachelwattleywilliams%2Fposts%2Fpfbid0aY5CESG8CeaBchbEp1dW3ro2nSuKNq2Xwyodm1HBdBH6tEhx2E1JVxQ4gSGgzPTLl&show_text=true&width=500"
+          width="500" height="247" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsven.mason.1%2Fposts%2Fpfbid02tbqKPcHjYqwVr4nBPoTtSoFSUQMkYmLKTWG4DP4SmqK86CmSTJFaJEAotHSnNyB1l&show_text=true&width=500"
+          width="500" height="170" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkennanclarke%2Fposts%2Fpfbid02r7gDXKgKwU5HKmagTJ973CXJYBi7fra7QfeghqCqSoH97cC2W8pY8vFgydvExTHZl&show_text=true&width=500"
+          width="500" height="220" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+    <!-- Google Reviews Section -->
+    <div class="google-reviews-section">
+      <a href="https://g.page/r/CckJnVFJ-cfmEAI/review" target="_blank" rel="noopener noreferrer" class="review-button">
+        Review us
+      </a>
     </div>
   </div>
 
-  <!-- Photo Gallery Section -->
-  <div class="gallery-section">
-    <div class="frame">
-      <div class="gallery js-flickity">
-        <div class="frame img gallery-cell"><img src="./assets/images/img2.webp" alt="Kid at a competition" /></div>
-        <div class="frame img gallery-cell">
-          <div style="align-content:center; padding: 3em;">
-            <div style="float:left" class="map-responsive">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.5410787986434!2d98.93744747609074!3d18.72935338240509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3103aa9d5fb7%3A0xe6c7f949519d09c9!2sLazy%20Leopard%20BJJ%20and%20MMA!5e0!3m2!1sen!2sth!4v1751098074695!5m2!1sen!2sth"
-                width="600" height="450" style="border: 0px; float:left" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-          </div>
-          <div class="frame img gallery-cell"><img src="./assets/images/llbjj_img1.webp" alt="Belt Promotion Day" /></div>
-          <div class="frame img gallery-cell"><img src="./assets/images/img2.webp" alt="Child's no-gi promotion day" /></div>
-          <div class="frame img gallery-cell"><img src="./assets/images/img3.webp" alt="Competing children at medal stand" />
-          </div>
-          <div class="frame img gallery-cell"><img src="./assets/images/img4.webp" alt="no-gi open mat" />
-            <div class="frame img gallery-cell"><img src="./assets/images/img5.webp" alt="no-gi open mat" />
-            </div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img6.webp" alt="Children with medals" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img7.webp" alt="Children with medals" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img8.webp" alt="No gi class" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img9.webp" alt="Children's open roll" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img10.webp" alt="kid practicing on adult" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img11.webp" alt="Gym opening" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img12.webp"
-                alt="Parents attending children's practice competition" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img13.webp" alt="Rae and me in 50/50 leg position" />
-            </div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img14.webp" alt="BJJ card game" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img15.webp" alt="The no-gi gang" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img16.webp" alt="Teaching Kids" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img17.webp" alt="No-gi full house" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img18.webp" alt="Mixed group standing together" /></div>
-            
-            <div class="frame img gallery-cell"><img src="./assets/images/img19.webp" alt="Kids choking each other" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img20.webp" alt="Seminar" /></div>
-            <div class="frame img gallery-cell"><img src="./assets/images/img21.webp" alt="Open roll group photo" /></div>
-        <!-- Instagram Reel Embed -->
-        <div class="frame gallery-cell social-embed">
-          <div class="embed-container">
-            <iframe src="https://www.instagram.com/lazyleopardbjj/reel/DHauBHuSzJ3/embed" width="400" height="500"
-              style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true">
-            </iframe>
-          </div>
-        </div>
-        <!-- TikTok Video Embed -->
-        <div class="frame gallery-cell social-embed">
-          <div class="embed-container">
-            <iframe src="https://www.tiktok.com/@lazyleopardbjj/video/7518345989468572950/embed" width="400" height="500"
-              style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true">
-            </iframe>
-          </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        
-<!-- NEW ROW -->
-<div class="reviews-section">
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"
-    nonce="random_nonce"></script>
-  <div class="fb-page" data-href="https://www.facebook.com/LazyLeopardBJJ" data-tabs="reviews" data-width="500"
-    data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
-    data-show-facepile="false">
-    <blockquote cite="https://www.facebook.com/LazyLeopardBJJ" class="fb-xfbml-parse-ignore">
-      <a href="https://www.facebook.com/LazyLeopardBJJ">Lazy Leopard BJJ</a>
-    </blockquote>
-  </div>
-  <p></p>
-  <div class="reviews-grid">
-    <!-- Add your individual review embeds here -->
-    <!-- Example: -->
-    <!-- <div class="review-embed">
-                    <iframe src="YOUR_GOOGLE_REVIEW_EMBED_URL" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div> -->
-    <iframe
-      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaxdegler%2Fposts%2Fpfbid0VmE2pg1SnZnFsW4VYcqwQaoW3nJ5N8ygZFJtuigHGS6c7Yy7jfnymuQpP2BGLQQYl&show_text=true&width=500"
-      width="500" height="228" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
-      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    <iframe
-      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fgregory.e.stewart%2Fposts%2Fpfbid02R6PDS51JqSAqnXFdi7dWTTQLmKDcbUtTzRUFB1zubdNQu21zY57cRT7rUyEGEbE9l&show_text=true&width=500"
-      width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
-      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-  </div>
-  </div>
-  
-  <!-- Google Reviews Section -->
-  <div class="google-reviews-section">
-    <a href="https://g.page/r/CckJnVFJ-cfmEAI/review" target="_blank" rel="noopener noreferrer" class="review-button">
-      <span class="review-icon">⭐</span>
-      Give us a review on Google
-    </a>
-  </div>
   <!-- Social Media Section -->
   <div class="social-media-section">
-    <h2>Follow Us</h2>
     <div class="social-grid">
+<div id="fb-root" style="min-width: 1em;">
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"
+    nonce="random_nonce"></script>
+  <div class="facebook-embed">
+    <div class="fb-page" data-href="https://www.facebook.com/LazyLeopardBJJ" data-tabs="reviews" data-width="500"
+      data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+      data-show-facepile="false">
+      <blockquote cite="https://www.facebook.com/LazyLeopardBJJ" class="fb-xfbml-parse-ignore">
+        <a href="https://www.facebook.com/LazyLeopardBJJ">Lazy Leopard BJJ</a>
+      </blockquote>
+    </div>
+  </div>
+</div>
       <!-- Instagram Link -->
       <div class="social-item social-link">
         <a href="https://www.instagram.com/lazyleopardbjj/" target="_blank" rel="noopener noreferrer">
@@ -161,10 +214,19 @@ layout: default
           </div>
         </a>
       </div>
+<!-- LINE Link (Mobile Only) -->
+<div class="social-item social-link line-mobile-only">
+  <a href="https://line.me/ti/p/WFLRcR9u4U" target="_blank" rel="noopener noreferrer">
+    <div class="social-card line">
+      <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314" />
+      </svg>
+      <span>Add us on LINE</span>
     </div>
-  </div>
-  
-  <p></p>
+  </a>
+</div>
+    </div>
   </div>
 
   <script>
@@ -197,7 +259,6 @@ layout: default
 
       draggable: '>1',
       // enables dragging & flicking
-      // if at least 2 cells
 
       dragThreshold: 3,
       // number of pixels a user must scroll horizontally to start dragging
@@ -250,6 +311,57 @@ layout: default
       // at end of cells, wraps-around to first for infinite scrolling
 
     });
-  </script>
 
+      // Map zoom functionality for mobile
+      document.addEventListener('DOMContentLoaded', function () {
+        const mapImg = document.querySelector('.mapImg');
+        if (mapImg) {
+          let isZoomed = false;
+
+          mapImg.addEventListener('click', function () {
+            if (window.innerWidth <= 1000) { // Only on mobile/tablet
+              if (!isZoomed) {
+                // Zoom in
+                this.classList.add('zoomed');
+                isZoomed = true;
+
+                // Add overlay
+                const overlay = document.createElement('div');
+                overlay.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.8);
+                z-index: 999;
+                cursor: pointer;
+              `;
+                overlay.id = 'map-overlay';
+                document.body.appendChild(overlay);
+
+                // Close on overlay click
+                overlay.addEventListener('click', function () {
+                  mapImg.classList.remove('zoomed');
+                  isZoomed = false;
+                  document.body.removeChild(overlay);
+                });
+
+                // Close on escape key
+                document.addEventListener('keydown', function (e) {
+                  if (e.key === 'Escape' && isZoomed) {
+                    mapImg.classList.remove('zoomed');
+                    isZoomed = false;
+                    const overlay = document.getElementById('map-overlay');
+                    if (overlay) {
+                      document.body.removeChild(overlay);
+                    }
+                  }
+                });
+              }
+            }
+          });
+        }
+    });
+</script>
 </main>

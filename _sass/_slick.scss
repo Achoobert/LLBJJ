@@ -39,77 +39,30 @@
   object-fit: cover;
 }
 
-
-.mapContainer {
+// Main Content Row Layout
+.main-content-row {
   display: flex;
+  gap: 3em;
   align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-
-.mapImg {
-  max-height: 350px;
-  flex-shrink: 0;
-  width: auto;
-  height: auto;
-  order: 2;
-}
-
-.mapText {
-  flex-grow: 1;
-  padding: 1em;
-  text-align: left;
-  order: 1;
-}
-
-@media (max-width: 600px) {
-  .mapContainer {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .mapImg {
-    order: 1;
-  }
-  
-  .mapText {
-    order: 2;
-    margin-top: 1em;
-    text-align: center;
-  }
-}
-
-// Reviews Section Styling
-.reviews-section {
+  justify-content: center;
   margin: 3em auto;
-  text-align: center;
+  max-width: 1400px;
+  padding: 0 1em;
+}
+
+.map-section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.gallery-section {
+  flex: 1;
   max-width: 600px;
   
   h2 {
     margin-bottom: 1.5em;
     color: $text-color;
-  }
-}
-
-.facebook-embed {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  
-  .fb-page {
-    margin: 0 auto;
-  }
-}
-
-// Gallery Section Styling
-.gallery-section {
-  margin: 3em auto;
-  text-align: center;
-  max-width: 800px;
-  
-  h2 {
-    margin-bottom: 1.5em;
-    color: $text-color;
+    text-align: center;
   }
   
   .frame {
@@ -123,10 +76,281 @@
   }
 }
 
+// Fix for map image display
+.mapContainer {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 0.75em;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  float: left;
+  max-width: 500px;
+  margin-right: 2em;
+  clear: both;
+}
+
+.mapImg {
+  max-height: 200px;
+  flex-shrink: 0;
+  width: auto;
+  height: auto;
+  display: block;
+  z-index: 1;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  
+  &.zoomed {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    z-index: 1000;
+    max-height: 80vh;
+    max-width: 90vw;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.mapText {
+  flex-grow: 1;
+  text-align: left;
+  
+  p {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: $text-color;
+    
+    &::before {
+      margin-right: 0.5em;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-content-row {
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    margin: 2em auto;
+  }
+  
+  .map-section,
+  .gallery-section {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .mapContainer {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 2em;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5em;
+  }
+  
+  .mapImg {
+    max-height: 250px;
+    
+    &.zoomed {
+      transform: translate(-50%, -50%) scale(1.5);
+    }
+  }
+  
+  .mapText {
+    text-align: center;
+  }
+  
+  .gallery-section {
+    .frame {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    
+    .gallery {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
 @media (max-width: 600px) {
+  .main-content-row {
+    margin: 1em auto;
+    padding: 0 1em;
+  }
+  
+  .mapContainer {
+    padding: 0.5em;
+  }
+  
+  .mapImg {
+    max-height: 200px;
+    
+    &.zoomed {
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+  }
+  
+  .gallery-section {
+    .frame {
+      padding-bottom: 75%; /* Adjust aspect ratio for mobile */
+    }
+  }
+  
   .reviews-section {
     margin: 2em auto;
     padding: 0 1em;
+  }
+  
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+  
+  .facebook-embed {
+    .fb-page {
+      width: 100% !important;
+      max-width: 400px;
+    }
+  }
+  
+  .social-media-section {
+    margin: 2em auto;
+    padding: 0 1em;
+  }
+}
+
+// Reviews Section Styling
+.reviews-section {
+  margin: 3em auto;
+  text-align: center;
+  max-width: 1200px;
+  padding: 0 1em;
+  
+  h2 {
+    margin-bottom: 1.5em;
+    color: $text-color;
+  }
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.facebook-embed {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  
+  .fb-page {
+    margin: 0 auto;
+  }
+}
+
+// Social Media Section Styling
+.social-media-section {
+  margin: 3em auto;
+  text-align: center;
+  max-width: 1200px;
+  padding: 0 1em;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+  align-items: start;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  
+  &.social-link {
+    .social-card {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      padding: 0.75em 1em;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      transition: transform 0.2s ease;
+      min-width: 150px;
+      
+      &:hover {
+        transform: translateY(-2px);
+      }
+      
+      &.instagram {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      }
+      
+      &.tiktok {
+        background: #000;
+      }
+      
+      &.line {
+        background: #00B900;
+      }
+      
+      .social-icon {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+      }
+      
+      span {
+        font-size: 0.9em;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.facebook-embed {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  grid-column: 1 / -1;
+  
+  .fb-page {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .social-grid {
+    gap: 1em;
+    grid-template-columns: 1fr;
+  }
+  
+  .social-item.social-link .social-card {
+    min-width: 120px;
+    padding: 0.5em 0.75em;
+    
+    .social-icon {
+      width: 16px;
+      height: 16px;
+    }
+    
+    span {
+      font-size: 0.8em;
+    }
   }
   
   .facebook-embed {
@@ -137,147 +361,39 @@
   }
 }
 
-// Social Media Section Styling
-.social-media-section {
-  margin: 3em auto;
-  text-align: center;
-  max-width: 1200px;
-  padding: 0 1em;
-  
-  h2 {
-    margin-bottom: 2em;
-    color: $text-color;
-  }
-}
-
-.social-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 2em;
-  align-items: start;
-  justify-content: center;
-}
-
-.social-item {
-  display: flex;
-  justify-content: center;
-}
-
-.facebook-banner {
-  iframe {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-}
-
-.social-card {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border: 2px solid #dee2e6;
-  border-radius: 12px;
-  padding: 1em 1.5em;
-  text-align: center;
-  transition: all 0.3s ease;
-  min-height: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: $text-color;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-color: #adb5bd;
-  }
-  
-  .social-icon {
-    width: 24px;
-    height: 24px;
-    margin-bottom: 0.5em;
-  }
-  
-  span {
-    font-size: 0.9em;
-    font-weight: 500;
-    color: $text-color;
-  }
-}
-
-.instagram {
-  border-color: #e4405f;
-  &:hover {
-    border-color: #c13584;
-    background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
-  }
-  
-  .social-icon {
-    color: #e4405f;
-  }
-}
-
-.tiktok {
-  border-color: #000000;
-  &:hover {
-    border-color: #ff0050;
-    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
-  }
-  
-  .social-icon {
-    color: #000000;
-  }
-}
-
-@media (max-width: 900px) {
-  .social-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5em;
-  }
-  
-  .facebook-banner {
-    order: 1;
-  }
-  
-  .social-link {
-    order: 2;
-  }
-  
-  .social-card {
-    min-height: 150px;
-    padding: 1.5em 1em;
-  }
+// Mobile-only elements
+.line-mobile-only {
+  display: none;
 }
 
 @media (max-width: 600px) {
-  .social-media-section {
-    margin: 2em auto;
+  .line-mobile-only {
+    display: flex;
   }
   
   .social-grid {
     gap: 1em;
+    grid-template-columns: 1fr;
   }
   
-  .facebook-banner iframe {
-    width: 100% !important;
-    max-width: 400px;
-  }
-  
-  .social-card {
-    min-height: 120px;
-    padding: 1em;
+  .social-item.social-link .social-card {
+    min-width: 120px;
+    padding: 0.5em 0.75em;
     
     .social-icon {
-      font-size: 2em;
+      width: 16px;
+      height: 16px;
     }
     
-    h3 {
-      font-size: 1.1em;
-    }
-    
-    p {
+    span {
       font-size: 0.8em;
+    }
+  }
+  
+  .facebook-embed {
+    .fb-page {
+      width: 100% !important;
+      max-width: 400px;
     }
   }
 }
@@ -369,13 +485,6 @@
   }
 }
 
-.reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 2em;
-  justify-items: center;
-}
-
 .review-embed {
   iframe {
     border-radius: 8px;
@@ -390,11 +499,6 @@
 }
 
 @media (max-width: 600px) {
-  .reviews-grid {
-    grid-template-columns: 1fr;
-    gap: 1em;
-  }
-  
   .review-embed iframe {
     width: 100% !important;
     max-width: 350px;

@@ -8,6 +8,8 @@ An inarguably well-designed [Jekyll](http://jekyllrb.com) theme by [Pat Dryburgh
 ![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/screenshot.png)
 ## Quick Start
 
+bundle exec jekyll serve --host=0.0.0.0
+
 bundle exec jekyll serve
 
 This theme is, itself, a Jekyll blog, meaning the code base you see has everything you need to run a Jekyll powered blog!
